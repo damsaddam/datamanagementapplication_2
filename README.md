@@ -20,7 +20,7 @@ If you need an application to manage so much data in elementary school, maybe th
 - Teacher Data Menu (add data, edit data, delete data, search data, download data in pdf, download data in excel, print and copy data)
 - Room Data Menu (add data, edit data, delete data, search data, download data in pdf, download data in excel, print and copy data)
 - Fullscreen Toggle
-Take a look at screenshots of these features (https://drive.google.com/drive/folders/13pTmMwoO7G5cMyAlDwwJpwhUXXbF9NWD?usp=share_link)
+- Take a look at screenshots of these features (https://drive.google.com/drive/folders/13pTmMwoO7G5cMyAlDwwJpwhUXXbF9NWD?usp=share_link)
 
 
 ## Requirements
