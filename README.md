@@ -1,7 +1,15 @@
 
 # An Application to Manage Data in Elementary School
 
-If you need an application to manage so much data in elementary school, maybe this application is a solution for you. Just try this, and change according to your needs
+If you need an application to manage so much data in elementary school, maybe this application is a solution for you. Just try this, and change according to your needs. This application is made using:
+- HTML
+- CSS
+- JavaScript
+- PHP
+- Bootstrap v3 (https://getbootstrap.com/docs/3.3/getting-started/)
+- Bootstrap Icon (https://icons.getbootstrap.com/)
+- Google Font (https://fonts.google.com/)
+- datatables.net (https://datatables.net/download/index)
 
 
 ## Features
