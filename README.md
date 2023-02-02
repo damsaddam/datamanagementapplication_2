@@ -32,7 +32,7 @@ Take a look at screenshots of these features (https://drive.google.com/drive/fol
     4. In http://localhost/phpmyadmin/ click new ⇨ create database named "sdnkalibaru" ⇨ click import menu ⇨ choose file "sdnkalibaru.sql" in folder named sdnkalibaru ⇨ click the import button at the bottom
     5. Go to http://localhost/sdnkalibaru/ in your browser
     6. Ready to use
-## 🔗 Hi, This is My Links
+## 🔗 My Linkedin
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pangeran-saddam-husain-2b5096207/)
 
 ## 🚀 About Me
