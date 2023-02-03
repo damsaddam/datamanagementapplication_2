@@ -1,7 +1,7 @@
 
 # An Application to Manage Data in Elementary School
 
-If you need an application to manage so much data in elementary school, maybe this application is a solution for you. Just try this, and change according to your needs. My pleasure to help you all. This application is made using:
+If you need an application to manage so much data in elementary school, maybe this application is a solution for you. Just try this, and change according to your needs. My pleasure to help you all. This application was made using:
 - HTML
 - CSS
 - JavaScript
