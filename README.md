@@ -7,8 +7,8 @@ If you need an application to manage so much data in elementary school, maybe th
 - JavaScript
 - PHP
 - Bootstrap v3 (https://getbootstrap.com/docs/3.3/getting-started/)
-- Bootstrap Icon (https://icons.getbootstrap.com/)
-- Google Font (https://fonts.google.com/)
+- Bootstrap Icons (https://icons.getbootstrap.com/)
+- Google Fonts (https://fonts.google.com/)
 - datatables.net (https://datatables.net/download/index)
 
 
