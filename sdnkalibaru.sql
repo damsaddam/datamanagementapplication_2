@@ -126,7 +126,6 @@ CREATE TABLE `tb_user` (
 --
 
 INSERT INTO `tb_user` (`id_user`, `nama_user`, `username`, `password`, `level`) VALUES
-('26dc1d47-7fa4-11ed-ac05-040e3c46141a', 'Tata Usaha', 'tatausaha', '04a8eac0ffcc5450e1540d3c83b3d9c58ec7aa5b', '1'),
 ('f2c5e386-d5fb-11ea-89a9-040e3c46141a', 'Pangeran Saddam Husain', 'admin', 'd033e22ae348aeb5660fc2140aec35850c4da997', '1');
 
 --
