@@ -31,7 +31,8 @@ If you need an application to manage so much data in elementary school, maybe th
     3. Go to http://localhost/phpmyadmin/
     4. In http://localhost/phpmyadmin/ click new ⇨ create database named "sdnkalibaru" ⇨ click import menu ⇨ choose file "sdnkalibaru.sql" in folder named sdnkalibaru ⇨ click the import button at the bottom
     5. Go to http://localhost/sdnkalibaru/ in your browser
-    6. Ready to use
+    6. In form login default username = adminn, default password = admin. You can change or add username and password in http://localhost/phpmyadmin/ ⇨ sdnkalibaru ⇨ tb_user
+    7. Ready to use
 ## 🔗 My Linkedin
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pangeran-saddam-husain-2b5096207/)
 
