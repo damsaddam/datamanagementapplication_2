@@ -132,6 +132,7 @@
                     <h2 class="brand">DATA SISWA</h2>
                     <div class="pull-right">
                         <a href="add.php" class="btn add"><i class="bi bi-person-fill-add"></i>Tambah Siswa</a>
+                        <a href="import.php" class="btn add"><i class="bi bi-database-add"></i>Import Siswa</a>
                     </div>
                 </div>
             </div>
