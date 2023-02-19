@@ -35,5 +35,18 @@ if (isset($_POST['add'])) {
     $no_telp = trim(mysqli_real_escape_string($con, $_POST['no_telp']));
     mysqli_query($con, "UPDATE tb_guru SET nomorinduk_guru = '$nomorinduk_guru', nama_guru = '$nama_guru', jenis_kelamin = '$jenis_kelamin', wali_kelas = '$wali_kelas', alamat = '$alamat', no_telp = '$no_telp' WHERE id_guru = '$id'") or die(mysqli_error($con));
     echo "<script>window.location = 'data.php';</script>";
+} else if (isset($_POST['import'])) {
+    $file = $_FILES['file']['name'];
+    $ekstensi = explode(".", $file);
+    $file_name = "file-" . round(microtime(true)) . "." . end($ekstensi);
+    $sumber = $_FILES['file']['tmp_name'];
+    $target_dir = "../_file/";
+    $target_file = $target_dir . $file_name;
+    $upload = move_uploaded_file($sumber, $target_file);
+    if ($upload) {
+        echo "Upload berhasil";
+    } else {
+        echo "Upload gagal";
+    }
 }
 ?>

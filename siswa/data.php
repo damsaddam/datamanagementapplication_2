@@ -273,7 +273,7 @@
     });
 </script>
 
-<!-- Menu Toggle Script -->
+<!-- Fullscreen Toggle Script -->
 <script>
     $("#menu-toggle").click(function(e) {
         e.preventDefault();

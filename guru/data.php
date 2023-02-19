@@ -132,6 +132,7 @@
                     <h2 class="brand">DATA GURU</h2>
                     <div class="pull-right">
                         <a href="add.php" class="btn add"><i class="bi bi-person-vcard-fill"></i>Tambah Guru</a>
+                        <a href="import.php" class="btn import"><i class="bi bi-database-add"></i>Import Guru</a>
                     </div>
                 </div>
             </div>
@@ -271,7 +272,7 @@
     });
 </script>
 
-<!-- Menu Toggle Script -->
+<!-- Fullscreen Toggle Script -->
 <script>
     $("#menu-toggle").click(function(e) {
         e.preventDefault();

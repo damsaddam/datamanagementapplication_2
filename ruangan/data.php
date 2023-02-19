@@ -81,6 +81,10 @@
         text-align: center;
     }
 
+    .content .config a i {
+        padding-right: 3px;
+    }
+
     .content .config a {
         text-decoration: none;
         text-align: center;
@@ -259,7 +263,7 @@
     });
 </script>
 
-<!-- Menu Toggle Script -->
+<!-- Fullscreen Toggle Script -->
 <script>
     $("#menu-toggle").click(function(e) {
         e.preventDefault();

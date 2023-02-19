@@ -73,6 +73,10 @@
         font-size: 16px;
     }
 
+    .btn-file {
+        padding: 4px 0 6px 4px;
+    }
+
     .submit .btn {
         font-size: 16px;
         color: white;
@@ -92,44 +96,22 @@
                     <div class="fullscreen">
                         <a href="#menu-toggle" id="menu-toggle"><i class="bi bi-fullscreen"></i></a>
                     </div>
-                    <h2 class="brand">TAMBAH DATA SISWA</h2>
+                    <h2 class="brand">IMPORT DATA GURU</h2>
                     <div class="pull-right">
+                        <a href="../_file/template/DATA GURU SDN KALIBARU 09.xlsx" class="btn template"><i class="bi bi-file-earmark-spreadsheet"></i>Download Template</a>
                         <a href="data.php" class="btn back"><i class="bi bi-arrow-return-left"></i>Kembali</a>
                     </div>
                 </div>
             </div>
             <div class="content row">
                 <div class="col-lg-6 col-lg-offset-3">
-                    <form action="proses.php" method="post">
+                    <form action="proses.php" method="post" enctype="multipart/form-data">
                         <div class="form-group">
-                            <label for="nomor_induk">Nomor Induk</label>
-                            <input type="number" name="nomor_induk" id="nomor_induk" class="form-control" required autofocus>
-                        </div>
-                        <div class="form-group">
-                            <label for="nama_siswa">Nama Siswa</label>
-                            <input type="text" name="nama_siswa" id="nama_siswa" class="form-control" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="jenis_kelamin">Silahkan Pilih Jenis Kelamin: </label><br>
-                            <input type="radio" name="jenis_kelamin" id="Laki-Laki" value="Laki-Laki" />
-                            <label for="Laki-Laki" style="padding-right: 16px;">Laki-Laki</label>
-                            <input type="radio" name="jenis_kelamin" id="Perempuan" value="Perempuan" />
-                            <label for="Perempuan">Perempuan</label>
-                        </div>
-                        <div class="form-group">
-                            <label for="ruangan">Ruangan / Kelas</label>
-                            <input type="text" name="ruangan" id="ruangan" class="form-control" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="alamat">Alamat</label>
-                            <textarea name="alamat" id="alamat" class="form-control" required></textarea>
-                        </div>
-                        <div class="form-group">
-                            <label for="no_telp">Nomor Telepon</label>
-                            <input type="number" name="no_telp" id="no_telp" class="form-control" required>
+                            <label for="file">Pilih File Excel</label>
+                            <input type="file" name="file" id="file" class="btn-file form-control" required>
                         </div>
                         <div class="submit pull-right form-group">
-                            <input type="submit" name="add" value="Simpan" class="btn submit">
+                            <input type="submit" name="import" value="Import" class="btn submit">
                         </div>
                     </form>
                 </div>

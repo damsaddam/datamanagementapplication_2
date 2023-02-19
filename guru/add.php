@@ -45,7 +45,7 @@
         color: rgb(55, 0, 255);
     }
 
-    .back * {
+    .pull-right * {
         font-size: 16px;
         font-weight: bold;
         font-style: normal;
@@ -53,15 +53,19 @@
         margin-bottom: 3px;
     }
 
-    .back .btn {
+    .pull-right i {
+        padding-right: 3px;
+    }
+
+    .pull-right .btn {
         background-color: whitesmoke;
     }
 
-    .back .btn:hover {
+    .pull-right .btn:hover {
         background-color: rgb(233, 233, 233);
     }
 
-    .back a:hover {
+    .pull-right a:hover {
         color: rgb(0, 0, 255);
     }
 
@@ -89,7 +93,7 @@
                         <a href="#menu-toggle" id="menu-toggle"><i class="bi bi-fullscreen"></i></a>
                     </div>
                     <h2 class="brand">TAMBAH DATA GURU</h2>
-                    <div class="back pull-right">
+                    <div class="pull-right">
                         <a href="data.php" class="btn back"><i class="bi bi-arrow-return-left"></i>Kembali</a>
                     </div>
                 </div>
