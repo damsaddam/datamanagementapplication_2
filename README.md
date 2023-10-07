@@ -20,7 +20,7 @@ If you need an application to manage so much data in elementary school, this app
 - Take a look at screenshots of these features (https://drive.google.com/drive/folders/13pTmMwoO7G5cMyAlDwwJpwhUXXbF9NWD?usp=share_link)
 
 ## Requirements
-- XAMPP version 3.2.4 or higher
+- XAMPP
 
 ## How to Installation
 1. Clone my repository.
